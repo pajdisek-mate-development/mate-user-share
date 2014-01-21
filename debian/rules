@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/autotools.mk
+
+DEB_CONFIGURE_SCRIPT := ./autogen.sh
+
+DEB_DH_MAKESHLIBS_ARGS += --exclude=libcaja-share-extension.so
+
+DEB_CONFIGURE_EXTRA_FLAGS += \
+	--with-httpd=/usr/lib/apache2/mpm-worker/apache2 \
+	--with-modules-path=/usr/lib/apache2/modules/
+
+install/mate-user-share::
+	rm -f debian/mate-user-share/usr/share/mate-user-share/dav_user_2.0.conf
+	find debian/mate-user-share -name "*.la" -delete
+
+get-orig-source:
+	uscan --noconf --force-download --rename --download-current-version --destdir=..
