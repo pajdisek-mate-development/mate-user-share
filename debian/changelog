@@ -1,46 +1,7 @@
-mate-user-share (1.6.0-2) unstable; urgency=low
+mate-user-share (1.6.1-1) UNRELEASED; urgency=low
 
-  * debian/rules: Dont remove xdg folder.
-  * Add 02_fix-callback-argument.patch.
+  * Initial release. (Closes: #734989).
 
- -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 30 Apr 2013 15:04:22 +0200
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 01 Jan 2014 15:04:22 +0200
 
-mate-user-share (1.6.0-1) unstable; urgency=low
 
-  * New upstream release.
-
- -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 02 Apr 2013 23:49:39 +0200
-
-mate-user-share (1.5.1-1) unstable; urgency=low
-
-  * New upstream development release.
-  * Use libnotify instead of libmatenofity.
-
- -- Stefano Karapetsas <stefano@karapetsas.com>  Sat, 23 Mar 2013 15:23:57 +0100
-
-mate-user-share (1.5.0-1) unstable; urgency=low
-
-  * New upstream development release.
-
- -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 04 Dec 2012 07:45:04 +0100
-
-mate-user-share (1.4.1-1) unstable; urgency=low
-
-  * New upstream release.
-    * Changed gconf to mateconf in desktop_mate_file_sharing.schemas.
-  * debian/control
-    * depends on debhelper version 8 instead of version 5.
-
- -- Steve Zesch <stevezesch2@gmail.com>  Wed, 18 Jul 2012 13:19:34 -0400
-
-mate-user-share (1.4.0-1) unstable; urgency=low
-
-  * New upstream release.
-
- -- Steve Zesch <stevezesch2@gmail.com>  Sun, 15 Jul 2012 15:59:51 -0400
-
-mate-user-share (1.3.0-1) unstable; urgency=low
-
-  * Initial release.
-
- -- Steve Zesch <stevezesch2@gmail.com>  Tue, 15 May 2012 12:06:10 -0400
