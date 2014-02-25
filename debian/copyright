@@ -1,44 +1,65 @@
-This work was packaged for Debian by:
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: mate-user-share
+Upstream-Contact: Stefano Karapetsas <stefano@karapetsas.com>
+Source: http://pub.mate-desktop.org/releases/
 
-    Stefano Karapetsas <stefano@karapetsas.com>
+Files: src/file-share-properties.c
+       src/http.c
+       src/http.h
+       src/obexftp.c
+       src/obexftp.h
+       src/obexpush.c
+       src/obexpush.h
+       src/user_share-common.c
+       src/user_share-common.h
+       src/user_share-private.c
+       src/user_share-private.h
+       src/user_share.c
+       src/user_share.h
+Copyright: 2004, 2008, 2009, Red Hat, Inc
+License: GPL-2+
 
-It was downloaded from http://ftp.gnome.org/pub/GNOME/sources/gnome-user-share/
+Files: src/caja-share-bar.c
+       src/caja-share-bar.h
+Copyright: 2005, William Jon McCann <mccann@jhu.edu>
+License: GPL-2+
 
-Upstream Authors:
-    Perberos <perberos@gmail.com>
-    Stefano Karapetsas <stefano@karapetsas.com>
-    Steve Zesch <stevezesch2@gmail.com>
+Files: src/marshal.c
+       src/marshal.h
+Copyright: *No copyright*
+License: UNKNOWN
+Specified files lack copyright/license information in the
+(non-present) file header.
 
-Copyright Holders:
-    Copyright (C) 2012 Perberos
+Files: ltmain.sh
+Copyright: 1996-2001, 2003-2006
+License: GPL-2+
 
-License:
+Files: src/share-extension.c
+Copyright: 2003, Novell, Inc
+           2003, 2004, Red Hat, Inc
+           2005, William Jon McCann <mccann@jhu.edu>
+License: GPL-2+
 
- This package is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public License as
- published by the Free Software Foundation; either version 2 of the
- License, or (at your option) any later version.
+Files: debian/*
+Copyright: 2011, Stefano Karapetsas <stefano@karapetsas.com>
+           2013, Mike Gabriel <sunweaver@debian.org>
+License: GPL-2+
+
+License: GPL-2+
  
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- General Public License for more details.
-
- You should have received a copy of the GNU General Public License
- along with this program; if not, write to the Free Software
- Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
-
+This package is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your opinion) any later version.
+.
+This package is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Genaral Public License for more details.
+.
+You should have received a copy og the GNU General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>
+.
 On Debian systems, the complete text of the GNU General
-Public License can be found in `/usr/share/common-licenses/GPL-2'.
-
-For md5.[ch]:
- This code implements the MD5 message-digest algorithm.
- The algorithm is due to Ron Rivest.  This code was
- written by Colin Plumb in 1993, no copyright is claimed.
- This code is in the public domain; do with it what you wish.
-
- Equivalent code is available from RSA Data Security, Inc.
- This code has been tested against that, and is equivalent,
- except that you don't need to include two pages of legalese
- with every copy.
-
+Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
