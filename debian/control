@@ -23,7 +23,7 @@ Build-Depends: debhelper (>= 9),
                libunique-dev,
                libcaja-extension-dev (>= 1.5.0),
                mate-common
-Standards-Version: 3.9.3
+Standards-Version: 3.9.5
 
 Package: mate-user-share
 Architecture: any
