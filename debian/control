@@ -24,6 +24,9 @@ Build-Depends: debhelper (>= 9),
                libcaja-extension-dev (>= 1.5.0),
                mate-common
 Standards-Version: 3.9.5
+Homepage: http://www.mate-desktop.org
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mate/mate-user-share.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-mate/mate-user-share.git
 
 Package: mate-user-share
 Architecture: any
