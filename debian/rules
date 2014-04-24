@@ -7,7 +7,7 @@ DEB_CONFIGURE_SCRIPT := ./autogen.sh
 
 DEB_DH_MAKESHLIBS_ARGS += --exclude=libcaja-share-extension.so
 
-DEB_CONFIGURE_EXTRA_FLAGS += \
+DEB_CONFIGURE_EXTRA_FLAGS += --disable-silent-rules \
 	--with-httpd=/usr/lib/apache2/mpm-worker/apache2 \
 	--with-modules-path=/usr/lib/apache2/modules/
 
