@@ -18,12 +18,13 @@ DEB_DH_INSTALL_ARGS += --list-missing
 DEB_DH_MAKESHLIBS_ARGS += --exclude=libcaja-share-extension.so
 
 DEB_CONFIGURE_EXTRA_FLAGS += --disable-silent-rules \
+	--libdir=/usr/lib/$(dpkg-architecture -qDEB_BUILD_MULTIARCH) \
 	--with-httpd=/usr/lib/apache2/mpm-worker/apache2 \
 	--with-modules-path=/usr/lib/apache2/modules/
 
 install/mate-user-share::
-	rm -f debian/mate-user-share/usr/share/mate-user-share/dav_user_2.0.conf
-	find debian/mate-user-share -name "*.la" -delete
+	rm -f debian/tmp/usr/share/mate-user-share/dav_user_2.0.conf
+	rm -f debian/tmp/usr/lib/*/caja/extensions-2.0/libcaja-share-extension.la
 
 get-orig-source: $(PKG)_$(VER)$(DTYPE).orig.tar.xz $(info I: $(PKG)_$(VER)$(DTYPE))
 	@
