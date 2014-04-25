@@ -1,4 +1,4 @@
-mate-user-share (1.8.0-1) UNRELEASED; urgency=low
+mate-user-share (1.8.0+dfsg1-1) UNRELEASED; urgency=low
 
   * Initial release. (Closes: #734989).
 
