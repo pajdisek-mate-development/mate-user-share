@@ -40,3 +40,20 @@ Description: User level public file sharing via WebDAV or ObexFTP
  mate-user-share is a small package that allows easy user-level file sharing
  via WebDAV or ObexFTP. The shared files are announced on the network
  by Avahi.
+
+Package: mate-user-share-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Depends: ${misc:Depends},
+         mate-user-share (= ${binary:Version}),
+Description: User level public file sharing via WebDAV or ObexFTP (debugging symbols)
+ mate-user-share is a small package that allows easy user-level file sharing
+ via WebDAV or ObexFTP. The shared files are announced on the network
+ by Avahi.
+ .
+ This package contains debugging symbols for the MATE user share tool. It
+ is provided to help debugging problems.
+ .
+ The debugging symbols are installed  in /usr/lib/debug and will
+ automatically be used by gdb.
