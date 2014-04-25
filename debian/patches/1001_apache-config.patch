@@ -1,6 +1,7 @@
 Author: Steve Zesch <https://github.com/szesch>
  Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
 Description: Add MIME type support
+Forwarded: https://github.com/mate-desktop/mate-user-share/issues/20
 --- a/data/dav_user_2.2.conf
 +++ b/data/dav_user_2.2.conf
 @@ -14,11 +14,14 @@
