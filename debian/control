@@ -35,7 +35,6 @@ Depends: ${shlibs:Depends},
          apache2.2-bin,
          libapache2-mod-dnssd (>= 0.6),
          obex-data-server [linux-any],
-         mate-bluetooth [linux-any]
 Description: User level public file sharing via WebDAV or ObexFTP
  mate-user-share is a small package that allows easy user-level file sharing
  via WebDAV or ObexFTP. The shared files are announced on the network
