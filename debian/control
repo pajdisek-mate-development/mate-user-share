@@ -23,7 +23,7 @@ Build-Depends: cdbs,
                libcaja-extension-dev (>= 1.5.0),
                mate-common,
                yelp-tools,
-Standards-Version: 3.9.6
+Standards-Version: 3.9.5
 Homepage: http://www.mate-desktop.org
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mate/mate-user-share.git;a=summary
 Vcs-Git: git://anonscm.debian.org/pkg-mate/mate-user-share.git
