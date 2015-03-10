@@ -1,3 +1,12 @@
+mate-user-share (1.8.0+dfsg1-4) unstable; urgency=medium
+
+  * debian/patches:
+    + Add 0001_mem-leak-fix.patch, 0002_array-out-of-bounds.patch. Fix memory
+      leak and out-of-bounds access to array if bluetooth is disabled. (Closes:
+      #779821).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 10 Mar 2015 15:33:50 +0100
+
 mate-user-share (1.8.0+dfsg1-3) unstable; urgency=medium
 
   * debian/control:
