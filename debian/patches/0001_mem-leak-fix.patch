@@ -1,0 +1,47 @@
+From 18acac35d5015196431b5fc5f0291c860ea2ea1b Mon Sep 17 00:00:00 2001
+From: Monsta <monsta@inbox.ru>
+Date: Wed, 19 Nov 2014 21:22:41 +0300
+Subject: [PATCH] don't leak memory
+
+---
+ src/http.c            | 1 +
+ src/share-extension.c | 6 +++---
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+
+diff --git a/src/http.c b/src/http.c
+index 71161cd..36d058a 100644
+--- a/src/http.c
++++ b/src/http.c
+@@ -397,6 +397,7 @@ spawn_httpd (int port, pid_t *pid_out)
+ 		fprintf (stderr, "error spawning httpd: %s\n",
+ 			 error->message);
+ 		g_error_free (error);
++		g_free (pid_filename);
+ 		return FALSE;
+ 	}
+ 
+diff --git a/src/share-extension.c b/src/share-extension.c
+index bbc34ff..e0edbce 100644
+--- a/src/share-extension.c
++++ b/src/share-extension.c
+@@ -168,6 +168,8 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
+ 		g_object_unref (dir);
+ 	}
+ 
++	g_object_unref (file);
++
+ 	if (enable == FALSE)
+ 		return NULL;
+ 
+@@ -200,9 +202,7 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
+ 
+ 	gtk_widget_show_all (bar);
+ 
+-	g_object_unref (file);
+-
+-        return bar;
++	return bar;
+ }
+ 
+ static void
+
