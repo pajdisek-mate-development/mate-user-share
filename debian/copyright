@@ -72,8 +72,6 @@ Files: data/icons/22x22/Makefile.am
        po/.cvsignore
        po/ChangeLog
        src/Makefile.am
-       src/marshal.c
-       src/marshal.h
        src/*.list
        Makefile.am
        autogen.sh
