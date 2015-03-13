@@ -68,6 +68,9 @@ Files: data/icons/22x22/Makefile.am
        man/*.1
        po/LINGUAS
        po/POTFILES.*
+       po/gnome-copyrights.txt
+       po/.cvsignore
+       po/ChangeLog
        src/Makefile.am
        src/marshal.c
        src/marshal.h
@@ -75,6 +78,14 @@ Files: data/icons/22x22/Makefile.am
        Makefile.am
        autogen.sh
        configure.ac
+       .tx/config
+       AUTHORS
+       COPYING
+       ChangeLog
+       MAINTAINERS
+       NEWS
+       NEWS.GNOME
+       README
 Copyright: *No copyright*
 License: GPL-2+
 Comment:
@@ -82,10 +93,7 @@ Comment:
 
 Files: git.mk
 Copyright: 2009, Red Hat, Inc.
-License:
- Copying and distribution of this file, with or without modification,
- are permitted in any medium without royalty provided the copyright
- notice and this notice are preserved.
+License: Public-Domain
 
 Files: debian/*
 Copyright: 2011-2014, Stefano Karapetsas <stefano@karapetsas.com>
@@ -108,3 +116,8 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: Public-Domain
+ Copying and distribution of this file, with or without modification,
+ are permitted in any medium without royalty provided the copyright
+ notice and this notice are preserved.
