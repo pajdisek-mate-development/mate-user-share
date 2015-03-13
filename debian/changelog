@@ -1,3 +1,18 @@
+mate-user-share (1.8.1+dfsg1-1) experimental; urgency=medium
+
+  * New upstream release.
+    - Including the GLib >= 2.43 compatibility patch. (Closes: #779850).
+  * debian/patches:
+    + Drop 0001_mem-leak-fix.patch, 0002_array-out-of-bounds.patch. Both
+      included in latest upstream release.
+  * debian/copyright:
+    + Add non-mentioned files.
+    + Don't mention files generated at build time.
+  * debian/control:
+    + Bump Standards: to 3.9.6. No changes needed.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Fri, 13 Mar 2015 11:12:01 +0100
+
 mate-user-share (1.8.0+dfsg1-4) unstable; urgency=medium
 
   * debian/patches:
