@@ -1,3 +1,12 @@
+mate-user-share (1.8.1+dfsg1-2) unstable; urgency=medium
+
+  * Upload to unstable.
+  * debian/control:
+    + Update D (mate-user-share): apache2.2-bin -> apache2-bin. (Closes:
+      #785224).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 21 May 2015 06:18:58 +0200
+
 mate-user-share (1.8.1+dfsg1-1) experimental; urgency=medium
 
   * New upstream release.
