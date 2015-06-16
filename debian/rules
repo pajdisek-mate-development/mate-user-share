@@ -20,7 +20,8 @@ DEB_DH_MAKESHLIBS_ARGS += --exclude=libcaja-share-extension.so
 DEB_CONFIGURE_EXTRA_FLAGS += --disable-silent-rules \
 	--libdir=/usr/lib/$(dpkg-architecture -qDEB_BUILD_MULTIARCH) \
 	--with-httpd=/usr/lib/apache2/mpm-worker/apache2 \
-	--with-modules-path=/usr/lib/apache2/modules/
+	--with-modules-path=/usr/lib/apache2/modules/ \
+	--with-gtk=2.0
 
 install/mate-user-share::
 	rm -f debian/tmp/usr/share/mate-user-share/dav_user_2.0.conf
