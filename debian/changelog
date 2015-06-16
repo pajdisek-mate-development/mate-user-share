@@ -1,3 +1,14 @@
+mate-user-share (1.10.0+dfsg1-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * debian/control:
+    + Add mate-user-share-common package.
+    + Update for upstream release.
+  * debian/patches:
+    + Drop 1002_add-keywords-key-to-desktop-files.patch. Applied upstream.
+
+ -- Martin Wimpress <code@flexion.org>  Sun, 14 Jun 2015 16:39:34 +0100
+
 mate-user-share (1.8.1+dfsg1-2) unstable; urgency=medium
 
   * Upload to unstable.
