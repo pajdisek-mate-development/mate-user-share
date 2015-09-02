@@ -18,8 +18,8 @@ DEB_CONFIGURE_EXTRA_FLAGS += --disable-silent-rules \
 	--with-gtk=2.0
 
 install/mate-user-share::
-	rm -f debian/tmp/usr/share/mate-user-share/dav_user_2.0.conf
-	rm -f debian/tmp/usr/lib/*/caja/extensions-2.0/libcaja-share-extension.la
+	rm debian/tmp/usr/share/mate-user-share/dav_user_2.0.conf
+	rm debian/tmp/usr/lib/*/caja/extensions-2.0/libcaja-user-share.la
 
 get-orig-source:
 	uscan --noconf --force-download --rename --download-current-version --destdir=..
