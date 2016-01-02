@@ -1,8 +1,15 @@
-mate-user-share (1.12.0-1) UNRELEASED; urgency=medium
+mate-user-share (1.12.0-1) unstable; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release.
+  * debian/rules:
+    + Remove obsolete deletion of dav_user_2.0.conf.
+  * debian/control:
+    + Correct Breaks and Replaces.
+    + Drop obsolete B-D: libdbus-1-dev.
+    + Versioned B-D: mate-common (>= 1.12) and libcaja-extension-dev (>= 1.12).
 
- -- Martin Wimpress <code@flexion.org>  Tue, 10 Nov 2015 00:02:29 +0000
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 02 Jan 2016 10:22:43 +0100
 
 mate-user-share (1.10.0-1) unstable; urgency=medium
 
