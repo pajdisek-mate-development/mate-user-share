@@ -48,7 +48,7 @@ Description: User level public file sharing via WebDAV or ObexFTP
  computers on the local network using mDNS/rendezvous, so that it shows
  up in the Network location in GNOME.
  .
- The dav server used is Apache, so you need that installed. Avahi or 
+ The dav server used is Apache, so you need that installed. Avahi or
  Howl is used for mDNS support, so you need to have that installed and
  mDNSResolver running.
 
