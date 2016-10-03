@@ -1,18 +1,36 @@
-mate-user-share (1.16.0-1) UNRELEASED; urgency=medium
+mate-user-share (1.16.0-1) unstable; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release.
+
+  [ Vangelis Mouhtsis ]
+  * debian/changelog:
+    + Fix missing changelog items for 1.15.1-0ubuntu1 upload.
   * debian/control:
     + Dependencies updated for MATE 1.16.
+  * debian/watch:
+    + Update version matching again to _not_ support development releases.
 
- -- Martin Wimpress <code@flexion.org>  Fri, 23 Sep 2016 10:46:48 +0100
+  [ Mike Gabriel ]
+  * debian/control:
+    + Drop B-D: libunique-3.0-dev. Not required by this upstream
+      release anymore. (Closes: #827233). (Already dropped in 1.15).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 03 Oct 2016 22:27:02 +0200
 
 mate-user-share (1.15.1-0ubuntu1) yakkety; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream development release.
   * debian/control:
     + Dependencies updated for MATE 1.15.
   * debian/watch:
     + Update version matching to support development releases.
+
+  [ Vangelis Mouhtsis ]
+  * debian/{control,rules}:
+    + dbgsym: Don't build dbg:packages anymore.
+      See https://wiki.debian.org/AutomaticDebugPackages.
 
  -- Martin Wimpress <code@flexion.org>  Fri, 09 Sep 2016 13:04:48 +0100
 
