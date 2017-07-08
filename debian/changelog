@@ -9,7 +9,17 @@ mate-user-share (1.18.0-1) UNRELEASED; urgency=medium
   [ Aron Xu ]
   * New upstream release.
 
- -- Aron Xu <aron@debian.org>  Fri, 07 Jul 2017 01:51:19 +0800
+  [ Vangelis Mouhtsis ]
+  * debian/compat:
+    + Update compat version.
+  * debian/control:
+    + Bump debhelper version to (>= 10.3~).
+  * debian/control:
+    + Bump Standards-Version: to 4.0.0. No changes needed.
+  * debian/rules:
+    + Add new block for DEB_DH_MISSING_ARGS.
+
+ -- Vangelis Mouhtsis <vangelis@gnugr.org>  Sun, 09 Jul 2017 00:13:45 +0300
 
 mate-user-share (1.16.0-1) unstable; urgency=medium
 
