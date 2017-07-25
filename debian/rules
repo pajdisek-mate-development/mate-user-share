@@ -13,9 +13,7 @@ DEB_BUILD_PARALLEL = 1
 
 DEB_CONFIGURE_SCRIPT := ./autogen.sh
 
-DEB_DH_INSTALL_ARGS +=
-
-DEB_DH_MISSING_ARGS += --list-missing
+DEB_DH_INSTALL_ARGS += --list-missing
 
 DEB_DH_MAKESHLIBS_ARGS += --exclude=libcaja-share-extension.so
 
