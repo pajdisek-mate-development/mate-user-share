@@ -1,13 +1,13 @@
-mate-user-share (1.18.0-1) UNRELEASED; urgency=medium
+mate-user-share (1.18.0-1) unstable; urgency=medium
+
+  [ Aron Xu ]
+  * New upstream release.
 
   [ Martin Wimpress ]
   * debian/control: Dependencies updated for MATE 1.17.
   * debian/rules: Remove obsolete --with-gtk=3.0
   * debian/control: Dependencies updated for MATE 1.18.
   * debian/rules: Add --disable-silent-rules, as used in other packages.
-
-  [ Aron Xu ]
-  * New upstream release.
 
   [ Vangelis Mouhtsis ]
   * debian/compat:
@@ -19,7 +19,12 @@ mate-user-share (1.18.0-1) UNRELEASED; urgency=medium
   * debian/rules:
     + Add new block for DEB_DH_MISSING_ARGS.
 
- -- Vangelis Mouhtsis <vangelis@gnugr.org>  Sun, 09 Jul 2017 00:13:45 +0300
+  [ Mike Gabriel ]
+  * debian/rules:
+    + Switch from DEB_DH_INSTALL_ARGS += --fail-missing to list-missing target
+      from CDBS's utils.mk.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 25 Jul 2017 17:12:21 +0200
 
 mate-user-share (1.16.0-1) unstable; urgency=medium
 
