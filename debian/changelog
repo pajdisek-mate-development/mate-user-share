@@ -1,3 +1,9 @@
+mate-user-share (1.19.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Thu, 25 Jan 2018 21:48:12 +0000
+
 mate-user-share (1.18.0-2) unstable; urgency=medium
 
   [ Vangelis Mouhtsis ]
