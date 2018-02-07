@@ -1,4 +1,10 @@
-mate-user-share (1.19.0-0ubuntu1) bionic; urgency=medium
+mate-user-share (1.20.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Wed, 07 Feb 2018 14:03:57 +0000
+
+mate-user-share (1.19.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
 
