@@ -1,10 +1,10 @@
-mate-user-share (1.20.0-0ubuntu1) bionic; urgency=medium
+mate-user-share (1.20.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
 
  -- Martin Wimpress <martin.wimpress@ubuntu.com>  Wed, 07 Feb 2018 14:03:57 +0000
 
-mate-user-share (1.19.0-0ubuntu1) bionic; urgency=medium
+mate-user-share (1.19.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
 
@@ -63,7 +63,7 @@ mate-user-share (1.16.0-1) unstable; urgency=medium
 
   [ Vangelis Mouhtsis ]
   * debian/changelog:
-    + Fix missing changelog items for 1.15.1-0ubuntu1 upload.
+    + Fix missing changelog items for 1.15.1-1 upload.
   * debian/control:
     + Dependencies updated for MATE 1.16.
   * debian/watch:
@@ -76,7 +76,7 @@ mate-user-share (1.16.0-1) unstable; urgency=medium
 
  -- Mike Gabriel <sunweaver@debian.org>  Mon, 03 Oct 2016 22:27:02 +0200
 
-mate-user-share (1.15.1-0ubuntu1) yakkety; urgency=medium
+mate-user-share (1.15.1-1) yakkety; urgency=medium
 
   [ Martin Wimpress ]
   * New upstream development release.
