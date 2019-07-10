@@ -1,8 +1,13 @@
-mate-user-share (1.22.0-1) UNRELEASED; urgency=medium
+mate-user-share (1.22.1-1) UNRELEASED; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release.
 
- -- Martin Wimpress <martin.wimpress@ubuntu.com>  Mon, 18 Mar 2019 20:30:23 +0000
+  [ Mike Gabriel ]
+  * debian/control:
+    + Bump Standards-Version: to 4.4.0. No changes needed.
+
+ -- Mike Gabriel <mike.gabriel@das-netzwerkteam.de>  Wed, 10 Jul 2019 13:04:19 +0200
 
 mate-user-share (1.20.1-1) unstable; urgency=medium
 
