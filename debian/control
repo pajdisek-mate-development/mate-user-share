@@ -72,4 +72,3 @@ Description: User level public file sharing via WebDAV or ObexFTP (common files)
  mDNSResolver running.
  .
  This package contains the architecture independent files.
-
