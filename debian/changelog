@@ -1,4 +1,4 @@
-mate-user-share (1.22.1-1) UNRELEASED; urgency=medium
+mate-user-share (1.22.1-1) unstable; urgency=medium
 
   [ Martin Wimpress ]
   * New upstream release.
@@ -6,8 +6,13 @@ mate-user-share (1.22.1-1) UNRELEASED; urgency=medium
   [ Mike Gabriel ]
   * debian/control:
     + Bump Standards-Version: to 4.4.0. No changes needed.
+    + Remove trailing line from EOF.
+  * debian/rules:
+    + Drop dbgsym-migration dh_strip override.
+  * debian/copyright:
+    + Update copyright attributions.
 
- -- Mike Gabriel <mike.gabriel@das-netzwerkteam.de>  Wed, 10 Jul 2019 13:04:19 +0200
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 29 Jul 2019 21:02:49 +0200
 
 mate-user-share (1.20.1-1) unstable; urgency=medium
 
