@@ -34,10 +34,9 @@ Depends: apache2-bin,
          gvfs-backends,
          libapache2-mod-dnssd (>= 0.6),
          mate-user-share-common (= ${source:Version}),
-         obex-data-server [linux-any],
          ${misc:Depends},
          ${shlibs:Depends},
-Description: User level public file sharing via WebDAV or ObexFTP
+Description: User level public file sharing via WebDAV
  MATE user share is a small tool that binds together various free
  software projects to bring easy to use user-level file sharing to the
  masses.
@@ -57,7 +56,7 @@ Architecture: all
 Depends: ${misc:Depends},
 Replaces: mate-user-share (<< 1.11.0),
 Breaks: mate-user-share (<< 1.11.0),
-Description: User level public file sharing via WebDAV or ObexFTP (common files)
+Description: User level public file sharing via WebDAV (common files)
  MATE user share is a small tool that binds together various free
  software projects to bring easy to use user-level file sharing to the
  masses.
