@@ -15,7 +15,6 @@ Files: src/file-share-properties.c
        src/user_share-private.c
        src/user_share-private.h
        src/user_share.c
-       src/user_share.h
 Copyright: 2004, 2008, 2009, Red Hat, Inc.
 License: GPL-2+
 
@@ -67,6 +66,7 @@ Files: data/icons/22x22/Makefile.am
        man/Makefile.am
        man/*.1
        po/LINGUAS
+       po/Makevars
        po/POTFILES.*
        po/gnome-copyrights.txt
        po/.cvsignore
@@ -80,8 +80,8 @@ Files: data/icons/22x22/Makefile.am
        .travis.yml
        .tx/config
        .github/issue_template.md
+       .github/FUNDING.yml
        AUTHORS
-       COPYING
        ChangeLog
        MAINTAINERS
        NEWS
