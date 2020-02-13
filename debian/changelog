@@ -7,6 +7,9 @@ mate-user-share (1.24.0-1) UNRELEASED; urgency=medium
     + Drop obsolete fields Contact: and Name:.
     + Append .git suffix to URLs in Repository: field.
 
+  [ Martin Wimpress ]
+  * New upstream release.
+
  -- Martin Wimpress <martin.wimpress@ubuntu.com>  Thu, 13 Feb 2020 16:56:04 +0000
 
 mate-user-share (1.22.1-1.1) unstable; urgency=medium
