@@ -1,3 +1,14 @@
+mate-user-share (1.24.0-1) UNRELEASED; urgency=medium
+
+  [ Mike Gabriel ]
+  * debian/control:
+    + Bump Standards-Version: to 4.5.0. No changes needed.
+  * debian/upstream/metadata:
+    + Drop obsolete fields Contact: and Name:.
+    + Append .git suffix to URLs in Repository: field.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Thu, 13 Feb 2020 16:56:04 +0000
+
 mate-user-share (1.22.1-1.1) unstable; urgency=medium
 
   * Non-maintainer upload.
