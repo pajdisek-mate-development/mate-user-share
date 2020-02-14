@@ -1,4 +1,4 @@
-mate-user-share (1.24.0-1) UNRELEASED; urgency=medium
+mate-user-share (1.24.0-1) unstable; urgency=medium
 
   [ Mike Gabriel ]
   * debian/control:
@@ -9,8 +9,10 @@ mate-user-share (1.24.0-1) UNRELEASED; urgency=medium
 
   [ Martin Wimpress ]
   * New upstream release.
+  * debian/copyright:
+    + Update copyright attributions.
 
- -- Martin Wimpress <martin.wimpress@ubuntu.com>  Thu, 13 Feb 2020 16:56:04 +0000
+ -- Mike Gabriel <sunweaver@debian.org>  Fri, 14 Feb 2020 20:25:06 +0100
 
 mate-user-share (1.22.1-1.1) unstable; urgency=medium
 
